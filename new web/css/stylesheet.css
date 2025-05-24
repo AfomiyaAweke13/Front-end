@@ -1,0 +1,384 @@
+  .content-div {
+     display: inherit;
+    position: inherit;
+    overflow:hidden;
+  }
+  .background-div img {
+    object-fit:fill;
+    background-repeat: no-repeat;
+    width:100em ;
+    height: 100vh;
+    align-items:fill;
+
+  }
+
+.h1{
+  text-align: center;
+  position: absolute;
+  top: 40px;
+  right:490px;
+  color: white;
+
+}
+.h5{
+  text-align: center;
+  position:absolute;
+  top: 100px;
+  right: 500px;
+  color: white;
+
+}
+.btn-stroked {
+  background-color: white;
+  border: 4px solid green;
+  position: absolute;
+  color:black;
+  top: 140px;
+  right: 600px;
+}
+
+.btn-stroked:hover {
+  background-color:green;
+  color:black;
+
+}
+.second-content{
+position: relative;
+top:30vh;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 1;
+}
+.second-content {
+ display: grid;
+ align-items:fill;
+ column-gap: 3px;
+}
+
+.img1 {
+  max-width: 100%;
+  max-height:100%;
+  position: absolute;
+  top:-90px;
+  right:110vh;
+}
+
+.text {
+  font-size: 70px;
+}
+.col-lg-8{
+  position: absolute;
+  top:0;
+  right:inherit;
+  object-fit:fill;
+  background-repeat: no-repeat;
+  width:500vh;
+  height: 800vh;
+}
+.col-lg-4{
+  position: absolute;
+  right:150vh;
+}
+.h11{
+  position: absolute;
+  left: 900px;
+  width:500vh;
+  height:20vh;
+  top:0px;
+  object-fit:contain;
+  background-repeat: no-repeat;
+
+}
+.h61{
+  position: absolute;
+  left:900px;
+  width:500vh;
+  height:60vh;
+  top: 100px;
+  object-fit:contain;
+  background-repeat: no-repeat;
+}
+.btn-second-stroked {
+  background-color: white;
+  border: 4px solid green;
+  position: absolute;
+  color:black;
+  top: 200px;
+right:-105vh;
+}
+
+.btn-second-stroked:hover {
+  background-color:green;
+  color: white;
+}
+
+  .third-content{
+  position:absolute;
+  top:70vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  }
+  .third-content {
+   display: grid;
+   align-items:fill;
+
+   column-gap: 3px;
+  }
+
+  .img2 {
+    width: 100vh;
+    height:100vh;
+    position: absolute;
+    top:110vh;
+
+  }
+
+  .text {
+    font-size: 70px;
+  }
+  .col-lg-4-third{
+    position: absolute;
+    top:auto;
+    right:-10vh;
+    object-fit:fill;
+    background-repeat: no-repeat;
+    width:500vh;
+    height: 800vh;
+
+  }
+  .col-lg-8-third{
+    position: absolute;
+    left: 120vh;
+
+  }
+  .h12{
+    position: absolute;
+     right: auto;
+    width:500vh;
+    height:20vh;
+    top:150vh;
+    object-fit:contain;
+    background-repeat: no-repeat;
+
+  }
+  .h62{
+    position: absolute;
+    right: aut;
+    width:500vh;
+    height:60vh;
+    top: 170vh;
+    object-fit:contain;
+    background-repeat: no-repeat;
+  }
+    .fourth-content{
+    position:absolute;
+    top:auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    }
+    .fourth-content {
+     display: grid;
+     align-items:fill;
+     column-gap: 3px;
+    }
+    .img3 {
+      width: 70vh;
+      height:70vh;
+      position: absolute;
+      top:170vh;
+      left: 10vh;
+    }
+    .text {
+      font-size: 70px;
+    }
+    .col-lg-4-fourth{
+      position:absolute;
+      top:190vh;
+      right:10vh;
+      object-fit:fill;
+      background-repeat: no-repeat;
+      width:500vh;
+      height: 800vh;
+
+    }
+    .col-lg-8-fourth{
+      position: absolute;
+      left: 120vh;
+      top:250vh;
+    }
+    .h13{
+      position:absolute;
+       left:150vh;
+      width:500vh;
+      height:20vh;
+      top:-5vh;
+      object-fit:contain;
+      background-repeat: no-repeat;
+
+    }
+    .h63{
+      position: absolute;
+      left: 150vh;
+      width:500vh;
+      height:60vh;
+      top: 13vh;
+      object-fit:contain;
+      background-repeat: no-repeat;
+    }
+    .col-lg-6-4{
+    position: absolute;
+    top:45vh;
+    right: -170vh;
+    }
+      .btn-stroked-four{
+        background-color:white;
+        border: 4px solid green;
+        color:black;
+      }
+      .btn-stroked-four:hover{
+        background-color:green;
+      }
+.col-lg-4-icons{
+  position: absolute;
+  right: -150vh;
+  top: 25vh;
+  grid-column-gap: -50vh;
+}
+.col-lg-6-link{
+  position: absolute;
+  right: -150vh;
+  top:30vh;
+}
+.five{
+color:green;
+}
+.fifth-content{
+  position: absolute;
+  left: 60vh;
+}
+.img4 {
+  width: 60vh;
+  height:30vh;
+  position: absolute;
+  top:260vh;
+  right:0vh;
+}
+.img5 {
+  width: 60vh;
+  height:30vh;
+  position: absolute;
+  align-items: center;
+  top:260vh;
+  right:-70vh;
+}
+.img6 {
+  width: 60vh;
+  height:30vh;
+  position: absolute;
+  top:260vh;
+  right:-140vh;
+}
+.col-lg-4-four2{
+  position: absolute;
+  left:0vh;
+}
+.h14{
+  position:absolute;
+   right:0vh;
+  width:50vh;
+  height:20vh;
+  top:300vh;
+  object-fit:contain;
+  background-repeat: no-repeat;
+}
+.h64{
+  position: absolute;
+  right:0vh;
+  width:50vh;
+  height:20vh;
+  top: 320vh;
+  object-fit:contain;
+  background-repeat: no-repeat;
+}
+.h15{
+  position:absolute;
+   right:-80vh;
+  width:50vh;
+  height:20vh;
+  top:300vh;
+  object-fit:contain;
+  background-repeat: no-repeat;
+}
+.h65{
+  position: absolute;
+  right:-80vh;
+  width:50vh;
+  height:20vh;
+  top:325vh;
+  object-fit:contain;
+  background-repeat: no-repeat;
+}
+.h16{
+  position:absolute;
+   right:-140vh;
+  width:50vh;
+  height:20vh;
+  top:300vh;
+  object-fit:contain;
+  background-repeat: no-repeat;
+
+}
+.h66{
+  position: absolute;
+  right: -140vh;
+  width:50vh;
+  height:20vh;
+  top:320vh;
+  object-fit:contain;
+  background-repeat: no-repeat;
+}
+.five1{
+  position:absolute;
+   right:0vh;
+  width:50vh;
+  height:20vh;
+  top:350vh;
+color:green;
+}
+.sixth-content {
+   display: inherit;
+  position: absolute;
+  top:350vh;
+  left:-60vh;
+  border-radius: ;
+  border-bottom:100vh;
+  overflow:hidden;
+}
+.img7 {
+  object-fit:fill;
+  background-repeat: no-repeat;
+  width:85em ;
+  height: 100vh;
+  border-bottom:10vh;
+  align-items:fill;
+}
+.h17{
+text-align: center;
+position: absolute;
+top: 40px;
+right:490px;
+color: black;
+}
+.five2{
+  text-align:center;
+  position:absolute;
+   right:490px;
+  top:550px;
+color:green;
+
+}

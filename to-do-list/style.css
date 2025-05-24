@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main container with background gradient */
+.container {
+    width: 100%;
+    min-height: 150vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 30px 40px 70px;
+}
+
+/* Main TodoApp box */
+.todoapp {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 140px;
+    border-radius: 10px;
+    min-height: 400px;  /* Ensure content height is always sufficient */
+}
+
+/* TodoApp header style */
+.todoapp h2 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.todoapp h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+/* Row for input box and button */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #edeef0;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+/* Input field styling */
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    padding-left: 20px;
+    width: 70%;  /* Ensure the input has proper width */
+}
+
+/* Button style */
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+/* Todo list item styling */
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    padding-left: 40px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Unchecked state of list items */
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);  /* Ensure image paths are correct */
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 5px;
+}
+
+/* Checked state of list items */
+ul li.checked {
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(images/checked.png);  /* Ensure image paths are correct */
+}
+ul li span{
+    position:absolute;
+    right: 0;
+    top:5px;
+    width: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background: #edeef0;
+}
